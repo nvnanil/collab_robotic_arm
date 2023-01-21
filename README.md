@@ -1,16 +1,16 @@
-# ENPM662 - Introduction to Robot Modelling - Project2
-Name: Naveen Anil
-Name: Sarin Ann Mathew
-Course:  ENPM662-Introduction to Robot Modelling
-PROJECT 2: COLLABORATIVE ROBOTIC MANIPULATOR
+# Collaborative Robotic Manipulator
+Author: Naveen Anil <br>
+Email: nvnanil@umd.edu
 
 ## Installing the dependencies
-ROS Noetic
-Ubuntu 20.04
-Gazebo
-Rviz
-Moveit Setup Assistant
-Python3
+```
+ROS Noetic <br>
+Ubuntu 20.04 <br>
+Gazebo <br>
+Rviz <br>
+Moveit Setup Assistant <br>
+Python3 <br>
+```
 
 *To install Sympy*
 ```
@@ -24,8 +24,8 @@ pip install numpy
 ```
 pip install matplotlib
 ```
-##Package name: manipulator
-Package structure:
+## Package structure:
+```
 CmakeLists.txt
 config -contains the .yaml files with the information regarding the controllers
 export.log
@@ -38,7 +38,7 @@ urdf -contains .urdf file for the robot
 world -contains file to open the simulated gazebo world
 robot_arm_moveit_package - contains the package generated through move-it setup assistant
 solidworks: contains the CAD models used to generate the URDF files
-
+```
 ## Running the code
 ```
 Export the package 'manipulator' to the catkin_ws/src
