@@ -1,0 +1,76 @@
+manipulator:
+  # default controller
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Controller 1
+  motor_1_revolute_controller:
+    type: effort_controllers/JointPositionController 
+    joint: "shoulder_pan_joint"
+    pid : {p: 650.0, i: 0.0, d: 100.0}
+
+  # Controller 2
+  motor_2_revolute_controller:
+    type: effort_controllers/JointPositionController 
+    joint: "shoulder_lift_joint"
+    pid : {p: 700.0, i: 0.01, d: 69.0}
+
+  # Controller 3
+  motor_3_revolute_controller:
+    type: effort_controllers/JointPositionController  
+    joint: "elbow_joint"
+    pid : {p: 300.0, i: 0.01, d: 10.0}
+
+  # Controller 4
+  motor_4_revolute_controller:
+    type: effort_controllers/JointPositionController 
+    joint: "wrist_1_joint"
+    pid : {p: 420.0, i: 0, d: 10.0}
+
+  # Controller 5
+  motor_5_revolute_controller:
+    type: effort_controllers/JointPositionController 
+    joint: "wrist_2_joint"
+    pid : {p: 120.0, i: 0, d: 1.0}
+
+  # Controller 6
+  motor_6_revolute_controller:
+    type: effort_controllers/JointPositionController  
+    joint: "wrist_3_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  # Controller 7
+  motor_7_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_finger_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  motor_8_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_left_inner_knuckle_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  motor_9_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_left_inner_finger_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  motor_10_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_right_outer_knuckle_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  motor_11_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_right_inner_knuckle_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+  motor_12_revolute_controller:
+    type: position_controllers/JointPositionController  
+    joint: "gripper_right_inner_finger_joint"
+    pid : {p: 10.0, i: 0, d: 1.0}
+
+
+
+
