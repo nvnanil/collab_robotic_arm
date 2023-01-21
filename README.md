@@ -28,7 +28,6 @@ pip install matplotlib
 ```
 CmakeLists.txt
 config -contains the .yaml files with the information regarding the controllers
-export.log
 launch -contains launch files to launch the robot in rviz and gazebo
 meshes -contains the information regarding the meshes for the robot and lidar
 package.xml
