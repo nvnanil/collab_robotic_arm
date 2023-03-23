@@ -2,7 +2,7 @@
 Author: Naveen Anil <br>
 Email: nvnanil@umd.edu
 
-https://github.com/nvnanil/Collaborative-Robotic-Arm/blob/world/gazebo_world.png?raw=true
+![](world/gazebo_world.png)
 
 ## Installing the dependencies
 ```
