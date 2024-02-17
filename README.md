@@ -6,12 +6,12 @@ Email: nvnanil@umd.edu
 
 ## Installing the dependencies
 ```
-ROS Noetic <br>
-Ubuntu 20.04 <br>
-Gazebo <br>
-Rviz <br>
-Moveit Setup Assistant <br>
-Python3 <br>
+ROS Noetic 
+Ubuntu 20.04 
+Gazebo 11
+Rviz 
+Moveit Setup Assistant 
+Python3,x
 ```
 
 *To install Sympy*
